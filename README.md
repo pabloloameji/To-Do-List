@@ -13,5 +13,5 @@ ToDo List es una página que permite hacer una lista de objetivos o tareas a rea
 3.	Abrimos la terminal como administrador y nos ubicamos dentro de la carpeta.
 4.	Una vez ubicados dentro de la carpeta creamos la imagen utilizando el comando *“ docker build . ”* 
 5.	Una vez terminado el proceso utilizamos el comando *“ Docker images ”* para ver el IMAGE ID de la imagen que se creó.
-6.	Utilizamos el comando *“ docker run -d -P 80:80 [IMAGE ID] apachectl -D FOREGROUND ”*.
+6.	Utilizamos el comando *“ docker run -d -p 80:80 [IMAGE ID] apachectl -D FOREGROUND ”*.
 7.	Ahora solo queda poner la ip de nuestra maquina en un navegador.
